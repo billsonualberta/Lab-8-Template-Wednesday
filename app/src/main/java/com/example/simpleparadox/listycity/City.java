@@ -25,6 +25,6 @@ public class City implements Comparable<City>{
     }
 
     public String toString() {
-        return "";
+        return String.format(Locale.CANADA, "%s, %s", city, province);
     }
 }
